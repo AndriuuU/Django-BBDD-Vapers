@@ -5,8 +5,7 @@ from GestionPedido import models
 
 
 def busqueda_productos(request):
-    
-    return render(request, "busqueda_productos.hmtl")
+    return render(request, "busquedaProductos.html")
 
 def buscar(request):
     if request.GET["prd"]:

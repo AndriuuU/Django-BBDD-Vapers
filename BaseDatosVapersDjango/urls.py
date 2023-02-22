@@ -18,6 +18,6 @@ from django.urls import path
 from GestionPedido import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('busqueda_productos/', views.busqueda_productos),
+    path('busquedaProductos/', views.busqueda_productos),
     path('buscar/', views.buscar),
 ]
